@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Assignment 1 - Bootstrap</title>
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background-color: white;
+        }
+
+        .box {
+            height: 100px;
+        }
+
+        .header, .footer {
+            height: 80px;
+        }
+
+        .header {
+            background-color: #8DA6CE;
+        }
+
+        .footer {
+            background-color: #0066B3;
+        }
+
+        /* Box Colors */
+        .box-1 { background-color: #C5FF63; }
+        .box-2 { background-color: #42C4FF; }
+        .box-3 { background-color: #FFD680; }
+        .box-4 { background-color: #8DA6CE; }
+        .box-5 { background-color: #6C36A9; }
+        .box-6 { background-color: #1C77C3; }
+        .box-7 { background-color: #C30000; }
+        .box-8 { background-color: #FFC107; }
+        .box-9 { background-color: #FFD680; }
+        .box-10 { background-color: #A2D81E; }
+        .box-11 { background-color: #7E7E7E; }
+        .box-12 { background-color: #003E5F; }
+        .box-13 { background-color: #003E5F; }
+        .box-14 { background-color: #7EC6E7; }
+        .box-15 { background-color: #1D617A; }
+    </style>
+</head>
+<body>
+    <div class="container py-4">
+        <!-- Header -->
+        <div class="row mb-3">
+            <div class="col-12">
+                <div class="box header"></div>
+            </div>
+        </div>
+
+        
+        <div class="row g-3 mb-3">
+            <!-- Column 1 -->
+            <div class="col-2">
+                <div class="box box-1"></div>
+            </div>
+            <div class="col-2">
+                <div class="box box-2"></div>
+            </div>
+            <!-- Double width box -->
+            <div class="col-4">
+                <div class="box box-3"></div>
+            </div>
+        </div>
+
+        <div class="row g-3 mb-3">
+            <div class="col-2">
+                <div class="box box-4"></div>
+            </div>
+            <div class="col-2">
+                <div class="box box-5"></div>
+            </div>
+            <div class="col-2">
+                <div class="box box-6"></div>
+            </div>
+            <div class="col-2">
+                <div class="box box-7"></div>
+            </div>
+            <div class="col-2">
+                <div class="box box-8"></div>
+            </div>
+        </div>
+
+        <div class="row g-3 mb-3">
+            <!-- Double width boxes -->
+            <div class="col-4">
+                <div class="box box-9"></div>
+            </div>
+            <div class="col-2">
+                <div class="box box-10"></div>
+            </div>
+            <div class="col-2">
+                <div class="box box-11"></div>
+            </div>
+            <div class="col-4">
+                <div class="box box-12"></div>
+            </div>
+        </div>
+
+        <div class="row g-3 mb-3">
+            <div class="col-2">
+                <div class="box box-13"></div>
+            </div>
+            <div class="col-2">
+                <div class="box box-14"></div>
+            </div>
+            <div class="col-2">
+                <div class="box box-15"></div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-12">
+                <div class="box footer"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
